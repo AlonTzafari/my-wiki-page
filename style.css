@@ -1,3 +1,4 @@
+/*general*/
 :root{
     --main-color: rgb(22, 22, 22);
     --menu-color: rgb(36, 36, 36);
@@ -8,7 +9,7 @@ body{
     background-color: var(--main-color);
     font-family: sans-serif;
 }
-
+/*fixed navigation style*/
 header{
     position: fixed;
     display: flex;
@@ -23,7 +24,6 @@ nav{
     display: flex;
     flex-grow: 1;
     flex-direction: row;
-    /* justify-content: space-evenly; */
 }
 .nav-link{
     display: flex;
@@ -40,7 +40,6 @@ nav{
     animation-fill-mode: forwards;
 }
 @keyframes tab-pop {
-
     100%{
         transform: scale(1.05);
         background-color: var(--highlight-color);
@@ -55,3 +54,4 @@ nav{
     color: var(--menu-color);
     animation-name: unset;
 }
+/*   */
