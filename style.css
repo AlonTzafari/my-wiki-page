@@ -97,11 +97,17 @@ h1{
     text-align: justify;
     background-color: var(--p-background-color);
 }
+/*footer elements*/
 footer{
     display: block;
-    position: absolute;
+    position: relative;
     background-color: var(--menu-color);
+    padding-top: calc(var(--header-offset)/2);
     height: 30vh;
     width: 100%;
     left: 0;
+    bottom: 0;
+}
+footer hr{
+    width: 95%;
 }
