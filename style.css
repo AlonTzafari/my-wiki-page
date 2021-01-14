@@ -11,6 +11,7 @@ body{
     background-color: var(--main-color);
     font-family: sans-serif;
     color: var(--highlight-color);
+    padding: 0;
 }
 /*fixed navigation style*/
 header{
@@ -95,4 +96,12 @@ h1{
     padding: 1vw;
     text-align: justify;
     background-color: var(--p-background-color);
+}
+footer{
+    display: block;
+    position: absolute;
+    background-color: var(--menu-color);
+    height: 30vh;
+    width: 100%;
+    left: 0;
 }
