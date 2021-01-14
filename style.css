@@ -1,7 +1,18 @@
 :root{
-    --main-color: rgb(32, 30, 30);
+    --main-color: rgb(22, 22, 22);
+    --menu-color: rgb(36, 36, 36);
 }
 
 body{
     background-color: var(--main-color);
+}
+
+header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left:0;
+    background-color: var(--menu-color);
+    height: 15vmin;
+    width: 100vw;
 }
