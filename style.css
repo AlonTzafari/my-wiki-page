@@ -97,6 +97,15 @@ h1{
     text-align: justify;
     background-color: var(--p-background-color);
 }
+.media-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--highlight-color);
+    margin-bottom: 5%;
+}
 /*footer elements*/
 footer{
     display: block;
