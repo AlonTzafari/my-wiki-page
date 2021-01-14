@@ -34,7 +34,24 @@ nav{
     font-size: 5vmin;
     color: var(--highlight-color);
 }
+.nav-link:hover{
+    animation-name: tab-pop;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes tab-pop {
+
+    100%{
+        transform: scale(1.05);
+        background-color: var(--highlight-color);
+        color: var(--menu-color);
+        z-index: 2;
+        box-shadow: 0 0 7px;
+    }
+}
+
 #current-tab{
     background-color: var(--highlight-color);
     color: var(--menu-color);
+    animation-name: unset;
 }
