@@ -3,12 +3,14 @@
     --main-color: rgb(22, 22, 22);
     --menu-color: rgb(36, 36, 36);
     --highlight-color: white;
+    --p-background-color: rgb(35, 37, 59);
     --header-offset: 12vmin;
 }
 
 body{
     background-color: var(--main-color);
     font-family: sans-serif;
+    color: var(--highlight-color);
 }
 /*fixed navigation style*/
 header{
@@ -19,6 +21,7 @@ header{
     background-color: var(--menu-color);
     height: var(--header-offset);
     width: 100vw;
+    z-index: 99;
 }
 
 nav{
@@ -66,4 +69,17 @@ h1{
     color: var(--highlight-color);
     text-align: center;
     font-size: 40px;
+}
+.home-art{
+    width: 20vw;
+    height: auto;
+}
+.home-p{
+    display: inline-block;
+    position: relative;
+    left: 25vw;
+    width: 49vw;
+    padding: 1vw;
+    text-align: justify;
+    background-color: var(--p-background-color);
 }
