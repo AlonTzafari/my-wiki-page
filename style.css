@@ -3,6 +3,7 @@
     --main-color: rgb(22, 22, 22);
     --menu-color: rgb(36, 36, 36);
     --highlight-color: white;
+    --header-offset: 12vmin;
 }
 
 body{
@@ -16,7 +17,7 @@ header{
     top: 0;
     left:0;
     background-color: var(--menu-color);
-    height: 12vmin;
+    height: var(--header-offset);
     width: 100vw;
 }
 
@@ -55,3 +56,14 @@ nav{
     animation-name: unset;
 }
 /*   */
+section{
+    padding-top: var(--header-offset);
+    width: 100%;
+    
+
+}
+h1{
+    color: var(--highlight-color);
+    text-align: center;
+    font-size: 40px;
+}
