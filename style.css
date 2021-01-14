@@ -119,6 +119,46 @@ h1{
     height: auto;
     margin: 5%;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 30vw 30vw 30vw;
+    width: 75vw;
+    color: --highlight-color;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px){
+    .grid-container{
+        grid-template-columns: 60vw;
+        grid-template-rows: 45vw 45vw 45vw 45vw 45vw 45vw;
+        width: 60vw;
+    }
+}
+
+.grid-item{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--highlight-color);
+}
+.grid-img{
+    display:initial;
+    object-fit:cover;
+    width: 100%;
+    height: auto;
+}
+#item11{}
+#item12{}
+#item13{}
+#item21{}
+#item22{}
+#item23{}
+#item31{}
+#item32{}
+#item33{}
+
 /*footer elements*/
 footer{
     display: block;
