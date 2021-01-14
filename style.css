@@ -106,6 +106,19 @@ h1{
     border-color: var(--highlight-color);
     margin-bottom: 5%;
 }
+.tiles-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    
+}
+.logo{
+    width:15vh;
+    height: auto;
+    margin: 5%;
+}
 /*footer elements*/
 footer{
     display: block;
