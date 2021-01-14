@@ -58,7 +58,7 @@ nav{
     color: var(--menu-color);
     animation-name: unset;
 }
-/*   */
+/*main content*/
 section{
     padding-top: var(--header-offset);
     width: 100%;
@@ -71,8 +71,21 @@ h1{
     font-size: 40px;
 }
 .home-art{
+    display: block;
+    position: relative;
     width: 20vw;
     height: auto;
+    animation-name: car-anim;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes car-anim{
+    0%{
+        left: 0vw;  
+    }
+    100%{
+        left: 37.5vw;
+    }
 }
 .home-p{
     display: inline-block;
