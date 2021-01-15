@@ -13,7 +13,7 @@ body{
     color: var(--highlight-color);
     padding: 0;
 }
-/*fixed navigation style*/
+/*navigation header*/
 header{
     position: fixed;
     display: flex;
@@ -104,6 +104,7 @@ h1{
     border-width: 2px;
     border-style: solid;
     border-color: var(--highlight-color);
+    padding-bottom: 5%;
     margin-bottom: 5%;
 }
 .tiles-container{
