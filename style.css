@@ -107,6 +107,14 @@ h1{
     padding-bottom: 5%;
     margin-bottom: 5%;
 }
+
+.yt-embed{
+    width: 80vw;
+    height: 45vw;
+    max-width: 560px;
+    max-height: 315px;
+}
+
 .tiles-container{
     display: flex;
     flex-direction: row;
