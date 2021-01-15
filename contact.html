@@ -15,7 +15,29 @@
             <a id="current-tab" class="nav-link" href="page3.html">CONTACT</a>
         </nav>
     </header>
-    <section></section>
+    <section>
+        <form class="form">
+            <hr>
+            <h2 class="form-element">Fill details below</h2>
+            <label class="form-element" for="name">Name</label><br>
+            <input class="form-element" id="name" type="text" placeholder="Enter full name" required><br>
+            <label class="form-element" for="email">Email</label><br>
+            <input class="form-element" id="email" type="email" placeholder="Enter email address" required><br>
+            <label class="form-element" for="phone-number">Phone</label><br>
+            <input class="form-element" id="phone-number" type="tel" placeholder="Enter phone number" maxlength="10"><br>
+            <label class="form-element" for="brand">Brand</label><br>
+            <select class="form-element" id="brand" >
+                <option selected disabled>Select brand</option>
+                <option value="audi">Audi</option>
+                <option value="alpha-romeo">Alpha Romeo</option>
+                <option value="mazarati">Mazarati</option>
+                <option value="mercedes-benz">Mercedes Benz</option>
+                <option value="ferrari">Ferrari</option>
+            </select><br>
+            <button class="form-element" type="submit">Send</button>
+            <hr>
+        </form>
+    </section>
     <footer>
         <hr>
         <div class="tiles-container" id="profile-container">

@@ -149,15 +149,27 @@ h1{
     width: 100%;
     height: auto;
 }
-#item11{}
-#item12{}
-#item13{}
-#item21{}
-#item22{}
-#item23{}
-#item31{}
-#item32{}
-#item33{}
+
+.form{
+    width: 40%;
+    margin: auto;
+    background-color: var(--p-background-color);
+    padding: 5%;
+    /* padding-top: 1%; */
+    box-shadow: 5px 7px 7px rgba(14, 14, 14, 0.74);
+}
+
+.form-element{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+input.form-element{
+    width: 80%
+}
+h2.form-element {
+    text-align: center;
+    font-size: 40px;
+}
 
 /*footer elements*/
 footer{
