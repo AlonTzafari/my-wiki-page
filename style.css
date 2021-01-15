@@ -217,6 +217,7 @@ footer hr{
     background-color: var(--highlight-color);
     margin-right: 2vw;
     margin-left: 2vw;
+    border-radius: 0.1em;
 }
 @media screen and (max-width: 850px){
     #footer-copyright{
