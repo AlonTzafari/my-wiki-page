@@ -13,6 +13,7 @@ body{
     color: var(--highlight-color);
     padding: 0;
 }
+
 /*navigation header*/
 header{
     position: fixed;
@@ -30,6 +31,7 @@ nav{
     flex-grow: 1;
     flex-direction: row;
 }
+
 .nav-link{
     display: flex;
     flex-grow: 1;
@@ -39,6 +41,7 @@ nav{
     font-size: 5vmin;
     color: var(--highlight-color);
 }
+
 .nav-link:hover{
     animation-name: tab-pop;
     animation-duration: 500ms;
@@ -59,6 +62,7 @@ nav{
     color: var(--menu-color);
     animation-name: unset;
 }
+
 /*main content*/
 section{
     padding-top: var(--header-offset);
@@ -66,11 +70,13 @@ section{
     
 
 }
+
 h1{
     color: var(--highlight-color);
     text-align: center;
     font-size: 40px;
 }
+
 .home-art{
     display: block;
     position: relative;
@@ -88,6 +94,7 @@ h1{
         left: 37.5vw;
     }
 }
+
 .home-p{
     display: inline-block;
     position: relative;
@@ -97,6 +104,7 @@ h1{
     text-align: justify;
     background-color: var(--p-background-color);
 }
+
 .media-video{
     display: flex;
     flex-direction: column;
@@ -123,6 +131,7 @@ h1{
     
     
 }
+
 .logo{
     width:15vh;
     height: auto;
@@ -154,6 +163,7 @@ h1{
     height: 80%;
     border-color: var(--highlight-color);
 }
+
 .grid-img{
     display:initial;
     object-fit:cover;
@@ -173,9 +183,11 @@ h1{
     font-size: 20px;
     margin-bottom: 5%;
 }
+
 input.form-element{
     width: 80%
 }
+
 h2.form-element {
     text-align: center;
     font-size: 40px;
@@ -187,12 +199,14 @@ footer{
     position: relative;
     background-color: var(--menu-color);
     padding-top: calc(var(--header-offset)/2);
+    padding-bottom: 5%;
     margin-top: 5%;
     height: 30vh;
     width: 100%;
     left: 0;
     bottom: 0;
 }
+
 footer hr{
     width: 95%;
 }
@@ -212,9 +226,11 @@ footer hr{
     margin-right: 2vw;
     justify-self: flex-start;
 }
+
 #footer-copyright{
     justify-self: flex-start;
 }
+
 .profile-link{
     display: flex;
     align-items: center;
@@ -227,11 +243,7 @@ footer hr{
     margin-left: 1vw;
     border-radius: 0.1em;
 }
+
 #footer-copyright{
     margin-left: 5%;
 }
-/* @media screen and (max-width: 850px){
-    #footer-copyright{
-        display: none;
-    }
-} */
