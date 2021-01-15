@@ -172,17 +172,23 @@ h1{
 }
 
 .form{
-    width: 40%;
+    width: 80%;
+    max-width: 400px;
     margin: auto;
     background-color: var(--p-background-color);
     padding: 5%;
     box-shadow: 5px 7px 7px rgba(14, 14, 14, 0.74);
 }
 
-@media screen and (max-width: 600px){
-    .form{
-        width: 80%;
-        
+h2.form-element {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+@media screen and (max-width: 817px){
+    h2.form-element{
+        font-size: 30px;
     }
 }
 
@@ -196,11 +202,6 @@ input.form-element{
     min-width: 100px;
 }
 
-h2.form-element {
-    text-align: center;
-    font-size: 40px;
-    
-}
 select.form-element{
     width: 80%;
     max-width: 200px;
